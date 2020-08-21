@@ -3,6 +3,7 @@ import {Portfolio} from './Portfolio/Portfolio';
 import './App.css';
 import { about } from '../constants/About';
 import {skills} from './../constants/Skills';
+import {projects} from "./../constants/Projects";
 
 export class App extends Component {
   constructor (){
@@ -13,13 +14,14 @@ export class App extends Component {
       selectedQuote:"",
       about:null,
       skills:null,
+      projects:null
     };
 
   }
   componentDidMount()
   {
     this.setState({
-      about,skills,
+      about,skills,projects,
       selectedHeading:about.heading,
       selectedQuote:about.quote,
       selectedSection:"about"
@@ -39,6 +41,7 @@ export class App extends Component {
       <Portfolio 
       about={this.state.about}
       skills={this.state.skills}
+      projects={this.state.projects}
       selectedHeading={this.state.selectedHeading}
       selectedQuote={this.state.selectedQuote}
       selectedSection={this.state.selectedSection}

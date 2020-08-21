@@ -1,5 +1,5 @@
 export const about = {
     heading: "About Me",
-    "quote": "If you love life, don't waste time, \nfor time is what life is made up of",
-    "bio": "A cadet by nature and a developer by passion, a tech enthusiast, a full-stack JavaScript developer, recently graduated from IIT Guwahati. Hritushree is currently looking for front end developer role. \n\nHritushree has done 2 projects in past 4 years and have a paper on Carboxylic Acid."
+    "quote": "The harder you work for something, \nthe greater you’ll feel when you achieve it.",
+    "bio": "I have recently graduated in Biosciences and Bioengineering at IIT Guwahati. I had interned at Embibe as a project co-ordinator where I was responsible for handling the day-to-day work of other interns, teachers and reporting it to the management team. As for my academic credentials, I had published a research paper titled “An insight into the mechanism of peroxidase-like activity of carbon dots” on Carbon Journal. \n\nOn the positions of responsibility front, I was an organizing team member of Public Relation and Branding, Techniche 2017, the annual cultural fest of IIT Guwahati. I was responsible for advertisement of various technical events such as workshops and Industrial Conclaves in various colleges across the country. I have gained diverse experiences during the course of my B.Tech and I have realized that web-development is something that I am really keen on. So I am actively seeking for full-time opportunities as a web-developer."
 };
